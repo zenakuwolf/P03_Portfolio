@@ -1,0 +1,261 @@
+/*
+  The Hologram Station
+  IAT 339 - Project 1 CSS Code
+  modified by: Marlon Hernandez;
+
+  http://www.instantshift.com/2012/07/12/how-to-create-fancy-animated-buttons-in-pure-css3/
+*/
+
+body {
+  font-family: "Trebuchet MS", sans-serif;
+  padding: 2rem;
+}
+
+section:not([id]) {
+  margin: 1em 0;
+  padding: 0.5em 0;
+  border-top: 1px solid #333;
+}
+
+section h3 {
+  margin-bottom: 0;
+}
+
+section p {
+  margin-top: 0;
+}
+
+section code {
+  background-color: #EEE;
+  padding: 0.5em 0.75em;
+}
+
+code{
+  display: block;
+}
+
+*, *::after, *::before{
+  box-sizing: border-box;
+}
+
+
+.in-text {
+  color: rgb(0, 149, 255);
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+  text-decoration: none;
+}
+
+.in-text:hover, .in-text:focus {
+  color: rgb(13, 27, 255);
+}
+
+/* Styling for the navigation button */
+.button-nav {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  /*color: #FFF;*/
+  color: rgb(10, 255, 230);
+  background-color: #333;
+  border-radius: 0.25em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.button-nav:hover, .button-nav:focus {
+  background-color: #999;
+  color: rgb(3, 20, 253);
+}
+
+.book-button {
+  background-color: rgb(18 , 125, 232);
+  border: 3px solid black;
+  transition: 0.5s;
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  padding: 0.5em 0.75em;
+  border-radius: 0.25em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+  background: linear-gradient(top, #c72a2a 0% ,#9e0e0e 100%);
+  -webkit-box-shadow: 0px 0px 1px #FF3300, inset 0px 0px 1px #FFFFFF;
+  -moz-box-shadow: 0px 0px 1px #FF3300, inset 0px 0px 1px #FFFFFF;
+  box-shadow: 0px 0px 1px #FF3300, inset 0px 0px 1px #FFFFFF;
+
+}
+
+.book-button:hover/*, .submit-button:focus*/{
+  /*background-color: rgb(7, 245, 115);*/
+  background-color: #999;
+  /*color:rgb(25, 25, 25);*/
+  color: rgb(0, 0, 0);
+}
+
+input[type=text]{
+   border: 1.5px solid black;
+   border-radius: 6px;
+}
+
+
+.heading_1, .heading_2, .heading_3{
+color: rgb(29, 35, 36);
+}
+
+.heading_1 {
+font: bold;
+font-size: 300%;
+}
+
+.heading_2{
+font-size: 175%;
+}
+
+.heading_3{
+font-size: 125%;
+}
+
+.bodyPara{
+  color: rgb(15, 15, 15);
+  font-size: 80%;
+}
+
+.bullet-list{
+  list-style-type: circle;
+  color: rgb(25, 41, 59);
+}
+
+.order-list{
+  list-style-type: upper-roman;
+  color: rgb(22, 28, 51);
+}
+
+.citation-list{
+  list-style-type: none;
+  display: block;
+  font-size: 125%
+}
+
+.main-nav-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 3px solid black;  
+    border-radius: 0.25em;
+    /*color: rgb(255, 255, 255);*/
+    color: color: rgb(10, 255, 230);
+    background-color: #333;
+    font-size: 125%;
+    text-decoration: none;
+    transition: 0.5s;
+    -webkit-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+    overflow: hidden;
+}
+
+.main-nav-list li{
+  float: left;
+  border-right: 2px solid black;
+
+}
+
+.main-nav-list a{
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  margin-right: 100px;
+  text-decoration: none;
+  color: rgb(10, 255, 230);
+}
+
+.main-nav-list :hover:not(.active){
+  /*background-color: rgb(18 , 125, 232);*/
+  background-color: #999;
+  /*color: solid white;*/
+  color: rgb(3, 20, 253);
+}
+
+.main-nav-list a:focus{
+color: rgb(30, 30, 30);
+}
+
+.box{
+  display: -webkit-flex; /* For support in a series of Webkit browsers */
+  display: -ms-flex; /* For support in IE 10 */
+  display: flex; 
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+  -ms-justify-content: space-around;
+  justify-content: space-around;
+}
+
+.box-item-image{
+  -webkit-flex: 1 1 18em;
+  -ms-flex: 1 1 18em;
+  flex: 1 1 18em;
+  background-color: #333;
+  border: 2px solid black;
+  transition: 0.5s;
+  color: rgb(255, 255, 255);
+  border-radius: 0.25em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+  overflow: hidden;
+  padding: 0 2rem;
+  height: auto;
+  width: auto;
+  max-width: 300px;
+  max-height: 300px;
+  display: inline-block;
+}
+
+
+.box-item-image:hover, .box-item-image:focus{
+  /*background-color: rgb(7, 245, 115);*/
+  background-color: #999;
+  color:rgb(25, 25, 25);
+}
+
+.product_list{
+  width: 400px;
+  height: auto;
+  max-width: 100%;
+  border: 1px solid black;
+}
+
+.logo_list{
+  width: auto;
+  height: auto;
+  max-width: 50%;
+  max-height: 50%;
+  border: 1px solid black;
+  display: inline;
+}
+
+}
+/*.box-item-text{
+  -webkit-flex: 1 1 18em;
+  -ms-flex: 1 1 18em;
+  flex: 1 1 18em;
+  padding: 0 1rem;
+}*/
+
+figure{
+  display: block;
+}
+
+figcaption{
+  text-align: center;
+}
+
+@media (max-width: 30em){
+  .box-item-image{
+    -webkit-order: 2;
+    -ms-order: 2;
+    order: 2;
+  }
+}

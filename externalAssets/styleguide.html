@@ -1,0 +1,322 @@
+<!-- 
+
+The Hologram Station
+IAT 339 - Project 1 HTML Code
+modified by: Marlon Hernandez +
+
+-->
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>Style Guide Template</title>
+
+    <link href="main.css" rel="stylesheet">
+    <link href="normalize.css" rel="stylesheet">
+    <link href="grids.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <h1>"The Hologram Station" Style Guide</h1>
+
+
+    <nav>
+      
+      <p>
+        Go to:
+        <a href="#interactive_elements">Interactive Elements</a>,
+        <a href="#text_elements">Text Elements</a>,
+        <a href="#combined_elements">Combined Elements</a>
+      </p>
+
+      <p>
+        Wireframes:
+        <a class = "nav-main-item" href = "wireframes/home_mobile.html">Mobile Wireframe</a>, 
+        <a class = "nav-main-item" href = "wireframes/home_smartwatch.html">SmartWatch Wireframe</a>, 
+        <a class = "nav-main-item" href = "wireframes/home_gameconsole.html">Gaming Console Wireframe</a>
+      </p>
+
+      <p>
+        <a class = "nav-main-item" href = "citations.html"> Citations </a> <br>
+        <a class = "nav-main-item" href = "mainPage_hologameStation.html">Hologame Station Home Page </a>
+      </p>
+
+    </nav>
+
+
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+
+      <!-- Default Button styling section -->
+      <section>
+
+        <h2>Navigation Button</h2>
+
+          <h3>CSS selector:</h3>
+          <p>.button-nav</p>
+
+          <h3>Sample code:</h3>
+          <code>&lt;a class="button-nav" href = "#"&gt;Default Button&lt;/a&gt;</code>
+
+          <h3>Rendered element:</h3>
+          <button class="button-nav" href="#">Default Button</button>
+      </section>
+
+      <section>
+        <h2>In-text link</h2>
+
+          <h3>CSS selector:</h3>
+          <p>.in-text</p>
+
+          <h3>Sample code:</h3>
+          <code>&lt; &gt; </code>
+
+          <h3>Rendered element:</h3>
+          <p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot <a class = "in-text" href = "#"> courgette tatsoi</a> pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
+
+      </section>
+
+      <section>
+        <h2>Submit/Reset Buttons</h2>
+          <h3>CSS selector:</h3>
+          <p>.submit-button</p>
+
+          <h3>Sample code:</h3>
+          <code>&lt;button type = "submit" value = "Submit" class = "submit-button"&gt; Submit &lt;/button&gt;</code>
+
+          <h3>Rendered element:</h3>
+          <button type = "submit" value = "Submit" class = "submit-button">Submit</button>
+      </section>
+
+      <section>
+        <h2>Text Input Field</h2>
+          <h3>CSS selector:</h3>
+          <p>input[type=text]</p>
+
+          <h3>Sample code:</h3>
+          <code>Name: &lt;br&gt;</code>
+          <code>&lt;input type = "text" name = "name" placeholder = " Name"&gt; &lt;br&gt;&lt;br&gt;</code>
+
+          <h3>Rendered element:</h3>
+          Name: <br>
+          <input type = "text" name = "name" placeholder = " Name"><br><br>
+
+      </section>
+
+    </section>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+
+      <section>
+        <h2>Headings</h2>
+          <h3>CSS selector;</h3>
+          <p>.heading-1, .heading-2, .heading-3</p>
+
+          <h3>Sample code:</h3>
+          <code>&lt;h1 class = "heading_1"&gt;The Hologram Station&lt;/h1&gt;</code>
+          <code>&lt;h2 class = "heading_2"&gt;Booking a station&lt;/h2&gt;</code>
+          <code>&lt;h3 class = "heading_3"&gt;Select a date&lt;/h3&gt;</code>
+
+          <h3>Rendered element:</h3>
+          <h1 class = "heading_1">The Hologram Station</h1>
+          <h2 class = "heading_2">Booking a Station</h2>
+          <h3 class = "heading_3">Select a date</h3>
+
+      </section>
+
+      <section>
+        <h2>Paragraphs</h2>
+          <h3>CSS selector;</h3>
+          <p>.bodyPara</p>
+
+          <h3>Sample code:</h3>
+          <code>&lt;p class = "bodyPara"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis porttitor sem. Aenean fermentum neque eu dolor molestie, ac commodo libero ullamcorper. Morbi eu lacus vel turpis tempus commodo. Aliquam eget porta neque. Morbi scelerisque luctus ex, nec placerat ligula vehicula sed. Sed a arcu quam. Nulla mattis, turpis et dictum mollis, nunc purus eleifend enim, fermentum feugiat nisl justo sollicitudin sapien. Integer nec tellus non dolor convallis rutrum. Donec in mi faucibus massa convallis tincidunt. Integer faucibus nibh quis mollis posuere. Quisque porttitor lacinia dignissim. Aliquam a mi justo. Vivamus scelerisque, justo ut pellentesque congue, lorem orci tincidunt felis, nec fermentum ex sapien eu nulla. Quisque vel libero dolor. Nunc in nibh nisl. Ut ac condimentum nisl.&lt;p&gt;</code>
+
+          <h3>Rendered element:</h3>
+          <p class = "bodyPara">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis porttitor sem. Aenean fermentum neque eu dolor molestie, ac commodo libero ullamcorper. Morbi eu lacus vel turpis tempus commodo. Aliquam eget porta neque. Morbi scelerisque luctus ex, nec placerat ligula vehicula sed. Sed a arcu quam. Nulla mattis, turpis et dictum mollis, nunc purus eleifend enim, fermentum feugiat nisl justo sollicitudin sapien. Integer nec tellus non dolor convallis rutrum. Donec in mi faucibus massa convallis tincidunt. Integer faucibus nibh quis mollis posuere. Quisque porttitor lacinia dignissim. Aliquam a mi justo. Vivamus scelerisque, justo ut pellentesque congue, lorem orci tincidunt felis, nec fermentum ex sapien eu nulla. Quisque vel libero dolor. Nunc in nibh nisl. Ut ac condimentum nisl.</p>
+      </section>
+
+      <section>
+        <h2>Bulleted Lists</h2>
+          <h3>CSS selector;</h3>
+          <p>.bullet-list</p>
+
+          <h3>Sample code:</h3>
+          <code>&lt;ul class = "bullet-list"&gt;
+            &lt;li&gt;Blue-Eyes White Dragon&lt;/li&gt;
+            &lt;li&gt;Dark Magician&lt;/li&gt;
+            &lt;li&gt;Red-Eyes Black Dragon&lt;/li&gt;
+            &lt;/ul&gt;</code>
+
+          <h3>Rendered element</h3>
+          <ul class = "bullet-list">
+            <li>Blue-Eyes White Dragon</li>
+            <li>Dark Magician</li>
+            <li>Red-Eyes Black Dragon</li>
+          </ul>
+      </section>
+
+      <section>
+        <h2>Numbered Lists</h2>
+          <h3>CSS selector;</h3>
+          <p>.order-list</p>
+
+          <h3>Sample code:</h3>
+          <code>&lt;ol class = "order-list"&gt;
+            &lt;li&gt;Blue-Eyes White Dragon&lt;/li&gt;
+            &lt;li&gt;Dark Magician&lt;/li&gt;
+            &lt;li&gt;Red-Eyes Black Dragon&lt;/li&gt;
+            &lt;/ol&gt;</code>
+
+          <h3>Rendered element</h3>
+          <ol class = "order-list">
+            <li>Blue-Eyes White Dragon</li>
+            <li>Dark Magician</li>
+            <li>Red-Eyes Black Dragon</li>
+          </ol>
+      </section>
+
+    </section>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+
+      <section>
+        <h2>Main Navigation</h2>
+          <h3>CSS selector;</h3>
+          <p>.main-nav-list</p>
+
+          <h3>Sample code:</h3>
+          <code>&lt;ul class = "main-nav-list"&gt;
+            &lt;li&gt;&lt;a href="#"&gt;BOOK&lt;/a&gt;&lt;/li&gt; 
+             &lt;li&gt;&lt;a href="#"&gt;BUY&lt;/a&gt;&lt;/li&gt; 
+             &lt;li&gt;&lt;a href="#"&gt;BLOG&lt;/a&gt;&lt;/li&gt; 
+             &lt;li&gt;&lt;a href="#"&gt;LOCATE&lt;/a&gt;&lt;/li&gt; 
+          &lt;/ul&gt;</code>
+
+          <h3>Rendered element</h3>
+          <ul class = "main-nav-list">
+            <li><a href="#">BOOK</a></li>
+            <li><a href="#">BUY</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">LOCATE</a></li>
+            <li><a href="#">MY ACCOUNT</a></li>
+          </ul>
+      </section>
+
+      <section>
+        <h2>Product Listing</h2>
+          <h3>CSS selector;</h3>
+          <p></p>
+
+          <h3>Sample code:</h3>
+          <code>&lt;div class="box"&gt;
+          <code>&lt;h2 class="heading_2"&gt;Deals&lt;/h2&gt;</code>
+
+          <code>
+            &lt;div class="box-item-image"&gt;
+              &lt;figure&gt;
+                &lt;img src="imgs/blueEyes.jpg" alt= "Blue-Eyes White Dragon card"&gt;
+              &lt;/figure&gt;
+              &lt;figcaption&gt;Blue Eyes White Dragon [Holocard]&lt;/figcaption&gt;
+            &lt;/div&gt;
+          </code>
+
+          <code>
+            &lt;div class="box-item-image"&gt;
+              &lt;figure&gt;
+                &lt;img src="imgs/darkMagician.jpg" alt= "Dark Magician card"&gt;
+              &lt;/figure&gt;
+                &lt;figcaption&gt;Dark Magician [Holocard]&lt;/figcaption&gt;
+            &lt;/div&gt;
+          </code>
+            
+          <code> 
+            &lt;div class="box-item-image"&gt;
+              &lt;figure&gt;
+                &lt;img src="imgs/jigglypuff.jpg" alt="Jigglpuff card"&gt;
+              &lt;/figure&gt;
+                &lt;figcaption&gt;Jigglypuff [Holoball]&lt;/figcaption&gt;
+              &lt;/figure&gt;
+            &lt;/div&gt;
+          </code>
+          &lt;/div&gt;
+
+          </code>
+
+          <h3>Rendered element</h3>
+          <h2 class="heading_2">Deals</h2>
+          <div class="box">
+
+            
+
+            <div class="box-item-image">
+              <figure>
+              <a href="#">
+                <img src="imgs/blueEyes.jpg" alt= "Blue-Eyes White Dragon card">
+                </a>
+              </figure>
+
+              <figcaption>Blue Eyes White Dragon [Holocard]
+              </figcaption>
+            </div>
+            
+            <div class="box-item-image">
+              <figure>
+              <a href="#">
+                <img src="imgs/darkMagician.jpg" alt= "Dark Magician card">
+                </a>
+              </figure>
+                <figcaption>Dark Magician [Holocard]</figcaption>
+            </div>
+            
+            <div class="box-item-image">
+              <figure>
+              <a href="#Jigglepuff card">
+                <img src="imgs/jigglypuff.jpg" alt="Jigglpuff card">
+                </a>
+              </figure>
+                <figcaption>Jigglypuff [Holoball]</figcaption>
+             
+            </div>
+          </div>
+            <div>
+            <section id="Jigglepuff card">
+            <h2>Detailed Product View</h2>
+               <figure>
+                 <img src="imgs/original/jigglypuff.jpg" alt="Jigglpuff card" class="product_list">
+               </figure>
+               
+               <h3>Jigglypuff [Holoball] - 10$</h3>
+               <p>
+                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis porttitor sem. Aenean fermentum neque eu dolor molestie, ac commodo libero ullamcorper. Morbi eu lacus vel turpis tempus commodo. Aliquam eget porta neque.
+               </p>
+               <div>
+               <form>
+               Quantity: 
+               <input type="number" name="quantity" min="1" max="99">
+               </form>
+               <button class="button-nav" href="#">Add Cart</button>
+               </div>
+               </section>
+             </div> 
+      </section>
+
+    </section>
+    <!-- // COMBINED ELEMENTS SECTION -->
+
+  </body>
+</html>
